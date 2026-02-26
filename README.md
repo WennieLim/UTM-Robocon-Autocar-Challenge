@@ -68,7 +68,7 @@ A push button input is used to start the autonomous motion sequence.
 
 ---
 
-## 🔌 Pin Configuration
+## Pin Configuration
 
 | Peripheral | Function |
 |------------|----------|
