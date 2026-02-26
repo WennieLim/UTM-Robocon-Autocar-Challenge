@@ -1,4 +1,4 @@
-<img width="905" height="1280" alt="image" src="https://github.com/user-attachments/assets/5c4dbf40-e844-488f-8c21-ebb1bf9a8c96" /># STM32-Based Autonomous Car Control System  
+# STM32-Based Autonomous Car Control System  
 # Autocar Mentorship Program – Robocon UTM
 
 # Project Overview
@@ -101,7 +101,6 @@ A push button input is used to start the autonomous motion sequence.
 
 ##  Demonstration
 https://drive.google.com/file/d/1eHDUaHYnx46jYnR1FRZWgqYw7eVgjFQh/view?usp=sharing 
-
 
 ---
 
