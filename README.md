@@ -81,14 +81,14 @@ A push button input is used to start the autonomous motion sequence.
 
 ---
 
-## 🗂️ Software Architecture
+##  Software Architecture
 
-### 🔧 Development Environment
+###  Development Environment
 - STM32CubeIDE
 - Embedded C
 - STM32 HAL Driver
 
-### 🔄 Program Flow
+###  Program Flow
 
 1. System initialization
 2. GPIO, PWM timers, UART setup
@@ -99,12 +99,12 @@ A push button input is used to start the autonomous motion sequence.
 
 ---
 
-## 📷 Demonstration
+##  Demonstration
 *(Insert training session photos / testing video / robot platform here)*
 
 ---
 
-## 👩‍💻 Developer
+## Developer
 
 **Wennie Lim**  
 Autocar Trainee – Robocon UTM  
