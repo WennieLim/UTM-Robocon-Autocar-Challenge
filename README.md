@@ -113,5 +113,5 @@ Universiti Teknologi Malaysia
 
 ---
 
-## 🤝 Acknowledgement
+## Acknowledgement
 Special thanks to **Robocon UTM** for providing the mentorship platform and technical guidance throughout the development of this project.
