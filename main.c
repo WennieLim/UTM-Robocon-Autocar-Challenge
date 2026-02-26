@@ -468,32 +468,32 @@ static void MX_GPIO_Init(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef*huart){
 	//input prompt
 
-	HAL_UART_Transmit(&huart1, (uint32_t*)"Enter F/B/L/R:", 14, 100);
+	HAL_UART_Transmit(&huart1, (uint8_t*)"Enter F/B/L/R:", 14, 100);
 
 	if(receive=='F'){
 			Forward();
-			HAL_UART_Transmit(&huart1, (uint32_t*)"Forward", 7, 100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"Forward", 7, 100);
 			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_9);
 		}
 		else if(receive=='G'){
 			Backward();
-			HAL_UART_Transmit(&huart1, (uint32_t*)"Backward", 8, 100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"Backward", 8, 100);
 			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_8);
 
 		}
 		else if(receive=='R'){
 			turnLeft();
-			HAL_UART_Transmit(&huart1, (uint32_t*)"turnRight", 8, 100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"turnRight", 8, 100);
 			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
 		}
 		else if(receive=='L'){
 			turnRight();
-			HAL_UART_Transmit(&huart1, (uint32_t*)"turnLeft", 8,100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"turnLeft", 8,100);
 			HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 		}
 		else if(receive=='S'){
 			stop();
-			HAL_UART_Transmit(&huart1, (uint32_t*)"stop", 4,100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"stop", 4,100);
 		}
 		else if(receive=='P'){
 		    bigturnLeft();
@@ -501,10 +501,10 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef*huart){
 		}
 		else if(receive=='Q'){
 			bigturnRight();
-			HAL_UART_Transmit(&huart1, (uint32_t*)"bigturnRight", 12, 100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"bigturnRight", 12, 100);
 		}
 		else{
-			HAL_UART_Transmit(&huart1, (uint32_t*)"Error", 5, 100);
+			HAL_UART_Transmit(&huart1, (uint8_t*)"Error", 5, 100);
 		}
 
 
